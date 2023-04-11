@@ -13,19 +13,67 @@
             margin-right: 40px;
         }
         h1 {
-            margin: 0px 400px;
+            margin: 0px 611px;
             text-align: center;
         }
-        button.redondo {
+        button {
+            background: none;
+            border: none;
+            color: black;
+        }
+        
+        button:hover {
+            color: rgb(129, 119, 201);
+        }
+
+        button.redondo.negro {
             background-color: white;
-            border: 1px solid black;
+            border: 2px solid black;
             border-radius: 25px;
             padding: 0px 20px;
             height: 32px;
         }
+        button.redondo.negro:hover {
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+        button.redondo.violeta {
+            background-color: white;
+            border: 2px solid rgb(129, 119, 201);
+            border-radius: 25px;
+            padding: 0px 20px;
+            height: 32px;
+            color:rgb(129, 119, 201);
+        }
+        button.redondo.violeta:hover {
+            background-color: rgb(129, 119, 201);
+            color: white;
+        }
         div#introduction-actions {
             display: flex;
             justify-content: center;
+        }
+        .icono{
+            background-image: url("https://www.instagram.com/technologywithpurpose/");
+            background-repeat: no-repeat;
+            background-size: 20px 20px;
+            display: flex;
+        }
+        .BackPage {
+            background-color: black;
+            height: 300px;
+        }
+        .Titulobackpage {
+            color: white;
+            display: flex;
+            margin: 10px;
+        }
+        .Texto.back.page {
+            text-align: left;
+            padding: 10px 50px;
+            display: flex;
+            margin: 0px 650px;
+    
         }
     </style>
 </head>
@@ -35,22 +83,34 @@
             <img src="logo.svg">
         </div>
         <div id="header-right" style="display: flex; align-items: center;">
-            <p>Nosotros</p>
-            <p>Programas</p>
-            <p>Capaciontaciones</p>
-            <p>Alianzas</p>
-            <p>Contacto</p>
-            <button class="redondo">Sumate +</button>
+            <button class="button">Nosotros</button>
+            <button class="button">Programas</button>
+            <button class="button">Capacitaciones</button>
+            <button class="button">Alianzas</button>
+            <button class="button">Contacto</button>
+            <button class="redondo negro">Sumate +</button>
+            <a href="https://www.instagram.com/technologywithpurpose/" class="Icon"></a>
         </div>
     </div>
     <div id="introduction" style="padding: 48px;">
         <div id="introduction-text">
-            <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1>
+            <h1 style="font-family: sans-serif; font-weight: normal; margin: 0px 537px;">
+                Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1>
         </div>
-        <div id="introduction-actions" style="margin-top: 25px;">
-            <button class="redondo">Contactanos -></button>
-            <button class="redondo" style="margin-left: 14px;">Sumate +</button>
+        <div id="introduction-actions" style="margin-top: 35px;">
+            <button class="redondo negro">Contactanos -></button>
+            <button class="redondo violeta" style="margin-left: 14px;">Sumate +</button>
         </div>
+    </div>
+    <div id="BackPage" style="background-color: black;">
+        <div id="Titulo back page" style="color: white;"><h1>. Impacto</h1></div>
+        <div id="Texto back page" style="color: white;"><p>Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la comunidad. Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.</p></div>
+        <div id="number-locate" style="color: white;"><h1>58</h1></div>
+        <div id="locate" style="color: white;"><p>Localidades</p></div>
+        <div id="number-menthor" style="color: white;"><h1>+50</h1></div>
+        <div id="locate" style="color: white;"><p>Mentores</p></div>
+        <div id="number-participants" style="color: white;"><h1>301</h1></div>
+        <div id="locate" style="Color: white;"><p>Participantes</p></div>
     </div>
 </body>
 </html>
