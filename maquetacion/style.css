@@ -1,0 +1,130 @@
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+div#header-right p {
+    margin-right: 3em;
+}
+div#introduction h1 {
+    margin: 0px 595px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    font-size: 2em;
+    font-weight: 600;
+}
+button {
+    background: none;
+    border: none;
+    color: black;
+}
+
+button:hover {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 0px 1.5em;
+    height: 2em;
+}
+button.redondo {
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 25px;
+            padding: 0px 1.5em;
+            height: 2em;
+}
+div#introduction-actions{
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+}
+button.redondo.negro {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 0px 1.5em;
+    height: 2em;
+}
+button.redondo.negro:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+button.redondo.violeta {
+    background-color: white;
+    border: 2px solid rgb(129, 119, 201);
+    border-radius: 25px;
+    padding: 0px 1.5em;
+    height: 2em;
+    color:rgb(129, 119, 201);
+}
+button.redondo.violeta:hover {
+    background-color: rgb(129, 119, 201);
+    color: white;
+    cursor: pointer;
+}
+div#introduction-actions {
+    display: flex;
+    justify-content: center;
+}
+
+#BackPage {
+    display: flex;
+    margin: 12px -4px;
+    background-color: black;
+    color: white;
+    padding: 1em 15em;
+}
+  
+#text-left {
+    margin: -6em 16em;
+    text-align: inherit;
+    padding: 7em 4em;
+    }
+  
+#text-left h1 {
+    display: flex;
+    justify-content: initial;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  #text-left p {
+    display: flex;
+    justify-content: initial;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  #numbers-right,
+  #number-menthor,
+  #number-participants {
+    text-align: center;
+  }
+  
+  #numbers-right h1,
+  #number-menthor h1,
+  #number-participants h1 {
+    font-size: 80px;
+    margin: 0;
+  }
+  
+  #numbers-right p,
+  #number-menthor p,
+  #number-participants p {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+@media(width >=2000px){
+body{
+    font-size: 20px;
+}
+}
+@media(width >=4000px){
+body{
+    font-size: 30px;
+}
+}
